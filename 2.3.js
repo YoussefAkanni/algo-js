@@ -1,3 +1,12 @@
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 50; i++) {
   if (i % 2 == 0) document.write(i + " ");
+}
+
+document.write("  /  /  ");
+
+let x = 1;
+
+while (x <= 100) {
+  if (x % 2 == 0) document.write(x + " ");
+  x += 1;
 }
