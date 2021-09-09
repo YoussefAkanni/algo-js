@@ -2,26 +2,26 @@ let day = prompt("Type a number between 1 and 7.");
 
 switch (day) {
   case "1":
-    document.write("Monday");
+    console.log("Monday");
     break;
   case "2":
-    document.write("Tuesday");
+    console.log("Tuesday");
     break;
   case "3":
-    document.write("Wedesday");
+    console.log("Wedesday");
     break;
   case "4":
-    document.write("Thursday");
+    console.log("Thursday");
     break;
   case "5":
-    document.write("Friday");
+    console.log("Friday");
     break;
   case "6":
-    document.write("Saturday");
+    console.log("Saturday");
     break;
   case "7":
-    document.write("Sunday");
+    console.log("Sunday");
     break;
   default:
-    document.write("Number between 1 and 7");
+    console.log("Number between 1 and 7");
 }

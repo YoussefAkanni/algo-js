@@ -1,12 +1,12 @@
 for (let i = 0; i < 50; i++) {
-  if (i % 2 == 0) document.write(i + " ");
+  if (i % 2 == 0) console.log(i + " ");
 }
 
-document.write("  /  /  ");
+console.log("  /  /  ");
 
 let x = 1;
 
 while (x <= 100) {
-  if (x % 2 == 0) document.write(x + " ");
+  if (x % 2 == 0) console.log(x + " ");
   x += 1;
 }
