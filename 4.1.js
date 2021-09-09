@@ -1,3 +1,4 @@
+// This function multiplies the length and width
 function calcSurface(a, b) {
   return a * b;
 }
